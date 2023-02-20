@@ -1,0 +1,16 @@
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: white;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: #f38cec;
+}
+
+.description {
+
+}
