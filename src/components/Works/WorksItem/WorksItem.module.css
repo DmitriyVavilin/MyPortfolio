@@ -1,0 +1,14 @@
+.worksItemBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    width: 450px;
+}
+
+.icon {
+    width: 450px;
+    height: 300px;
+    background-color: white;
+}
