@@ -1,0 +1,19 @@
+.main {
+    height: 100vh;
+    background-color: #f38cec;
+}
+
+.text {
+    width: 300px;
+    background-color: #ff9f9f;
+}
+
+h1 {
+    margin: 0;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: #efbebe;
+}
