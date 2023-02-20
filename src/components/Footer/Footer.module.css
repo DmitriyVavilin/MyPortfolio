@@ -1,0 +1,21 @@
+.footerBlock {
+    height: 50vh;
+    background-color: #ff9f9f;
+}
+
+.footerContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footerSocial {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 70%;
+}
+
+.footerText {
+    margin-top: 70px;
+}
