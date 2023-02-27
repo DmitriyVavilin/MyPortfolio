@@ -1,5 +1,5 @@
 .worksBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #f38cec;
 }
 
@@ -20,3 +20,4 @@
     width: 100%;
     border: 1px solid ;
 }
+

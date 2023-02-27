@@ -11,7 +11,7 @@ export const WorksItem = (props:WorksItemType) => {
         <div className={s.worksItemBlock}>
             <div className={s.icon}></div>
             <h2>{props.title}</h2>
-            <span>{props.description}</span>
+            <span className={s.description}>{props.description}</span>
         </div>
     );
 };

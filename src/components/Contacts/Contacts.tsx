@@ -11,7 +11,6 @@ export const Contacts = () => {
                 <div className={s.contactsFormBlock}>
                     <Form/>
                 </div>
-                <h2>Send</h2>
             </div>
         </div>
     );

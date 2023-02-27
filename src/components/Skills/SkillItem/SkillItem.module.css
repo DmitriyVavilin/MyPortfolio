@@ -5,6 +5,7 @@
     width: 250px;
     background-color: white;
     text-align: center;
+    margin: 10px;
 }
 
 .icon {
@@ -15,4 +16,16 @@
 
 .description {
 
+}
+
+@media (max-width: 1003px) {
+    .skillItem {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 624px) {
+    .skillItem {
+    }
 }
