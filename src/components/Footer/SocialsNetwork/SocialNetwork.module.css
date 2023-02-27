@@ -1,6 +1,6 @@
 .socialNetworkBlock {
     width: 100px;
-    height: 100px;
+    height: 80px;
     background-color: white;
     margin-right: 15px;
 }
@@ -9,8 +9,8 @@
     margin-right: 0;
 }
 
-@media (max-width: 625px) {
-    .socialNetworkBlock {
-        height: 50px;
-    }
-}
+/*@media (max-width: 625px) {*/
+/*    .socialNetworkBlock {*/
+/*        height: 50px;*/
+/*    }*/
+/*}*/

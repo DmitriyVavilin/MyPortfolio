@@ -13,9 +13,16 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid red;
-    width: 70%;
+    width: 650px;
 }
 
 .footerText {
     margin-top: 50px;
+}
+
+
+@media (max-width: 818px) {
+    .footerSocial {
+        width: 100%;
+    }
 }
