@@ -1,5 +1,5 @@
 .footerBlock {
-    height: 45vh;
+    height: 50vh;
     background-color: #ff9f9f;
 }
 
@@ -20,9 +20,18 @@
     margin-top: 50px;
 }
 
+.title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
 
 @media (max-width: 818px) {
     .footerSocial {
         width: 100%;
+    }
+
+    .title {
+
     }
 }
