@@ -16,12 +16,12 @@
     font-size: 30px;
 }
 
-.work {
+.works {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    border: 1px solid ;
+    /*border: 1px solid ;*/
 }
 
 

@@ -12,7 +12,7 @@
 .contactsFormBlock {
     display: flex;
     justify-content: center;
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 100%;
 }
 

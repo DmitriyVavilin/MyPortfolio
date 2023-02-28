@@ -8,7 +8,7 @@ export const Works = () => {
         <div className={s.worksBlock}>
             <div className={`${StyleContainer.container} ${s.worksContainer}`}>
                 <h2 className={s.title}>My Works</h2>
-                <div className={s.work}>
+                <div className={s.works}>
                     <WorksItem title={'TodoList'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/>
                     <WorksItem title={'Social Network'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/>
                 </div>

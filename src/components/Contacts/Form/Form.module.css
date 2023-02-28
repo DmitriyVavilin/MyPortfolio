@@ -33,23 +33,16 @@ textarea {
 @media (max-width: 626px) {
 
     input {
-        width: 350px;
+        width: 100%;
     }
     textarea {
-        width: 350px;
+        width: 100%;
     }
 
 }
 
 
 @media (max-width: 450px) {
-
-    input {
-        width: 286px;
-    }
-    textarea {
-        width: 286px;
-    }
 
     .buttonSend {
         width: 200px;

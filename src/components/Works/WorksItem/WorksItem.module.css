@@ -3,8 +3,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 450px;
+    margin-bottom: 30px;
 }
 
 .worksItemIcon {
@@ -16,20 +17,25 @@
     background-color: white;
 }
 
-.openWorksItem {
+.titleWorksItemIcon {
     color: black;
     font-size: 24px;
     background-color: #ff9f9f;
     padding: 15px 40px;
 }
 
-.openWorksItem:hover {
+.titleWorksItemIcon:hover {
     background-color: #a15959;
+}
+
+.description {
+    padding: 20px;
+    line-height: 1.5;
 }
 
 @media (max-width: 565px) {
     .worksItemIcon {
-        width: 285px;
+        width: 100%;
         margin-bottom: 15px;
     }
 

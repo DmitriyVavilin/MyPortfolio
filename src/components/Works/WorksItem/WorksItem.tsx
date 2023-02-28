@@ -10,7 +10,7 @@ export const WorksItem = (props:WorksItemType) => {
     return (
         <div className={s.worksItemBlock}>
             <div className={s.worksItemIcon}>
-                <a className={s.openWorksItem}>Open</a>
+                <a className={s.titleWorksItemIcon}>Open</a>
             </div>
             <h2>{props.title}</h2>
             <span className={s.description}>{props.description}</span>
