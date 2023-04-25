@@ -1,11 +1,31 @@
 .main {
     height: 100vh;
-    background-color: #f38cec;
+    background-image: url("https://images.wallpaperscraft.ru/image/single/gory_zima_doroga_136748_2048x1152.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.mainContainer {
+    flex-direction: row;
+    justify-content: center
+}
+
+.headerText {
+    text-align: center;
 }
 
 .text {
-    width: 300px;
-    background-color: #ff9f9f;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 0px 30px 0px 30px;
+}
+
+.title {
+
 }
 
 h1 {

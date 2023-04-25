@@ -25,6 +25,14 @@
 }
 
 
+@media (max-width: 1124px) {
+    .works {
+        justify-content: space-around;
+    }
+}
+
+
+
 @media (max-width: 625px) {
     .title {
         margin-top: 45px;
