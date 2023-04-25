@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     width: 250px;
-    background-color: white;
     text-align: center;
     margin: 10px;
 }
@@ -11,7 +10,6 @@
 .icon {
     width: 100px;
     height: 100px;
-    background-color: #f38cec;
 }
 
 .title {

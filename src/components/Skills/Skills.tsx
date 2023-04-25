@@ -12,9 +12,16 @@ export const Skills = (props: SkillsType) => {
             <div className={`${StyleContainer.container} ${s.skillsContainer}`}>
                 <h2 className={s.title}>Skills</h2>
                 <div className={s.skills}>
-                    <SkillItem title={'JavaScript'} description={'Programmer Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut'}/>
-                    <SkillItem title={'React'} description={'Programmer Lorem ipsum dolor sit amet, consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut'}/>
-                    <SkillItem title={'Redux'} description={'Programmer Lorem ipsum dolor sit amet'}/>
+                    <SkillItem id={'js'} title={'JavaScript'}/>
+                    <SkillItem id={'ts'} title={'TypeScript'}/>
+                    <SkillItem id={'react'} title={'React'}/>
+                    <SkillItem id={'redux'} title={'Redux'}/>
+                    <SkillItem id={'git'} title={'Git'}/>
+                    <SkillItem id={'html'} title={'Html5'}/>
+                    <SkillItem id={'css'} title={'Css3'}/>
+                    <SkillItem id={'rest'} title={'Rest Api'}/>
+                    <SkillItem id={'union-test'} title={'Union Test'}/>
+                    <SkillItem id={'material-ui'} title={'Material UI'}/>
                 </div>
             </div>
         </div>
