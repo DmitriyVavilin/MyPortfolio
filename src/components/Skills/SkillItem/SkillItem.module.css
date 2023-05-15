@@ -1,8 +1,10 @@
 .skillItem {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 250px;
+    height: 250px;
+    background-color: white;
     text-align: center;
     margin: 10px;
 }
@@ -13,7 +15,7 @@
 }
 
 .title {
-    margin-top: 30px;
+    font-size: 24px;
     margin-bottom: 15px;
 }
 

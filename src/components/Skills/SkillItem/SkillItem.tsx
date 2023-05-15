@@ -3,7 +3,7 @@ import s from './SkillItem.module.css'
 import HomeSvgSelector from "./SvgSkilsIcons/HomeSvgSelector";
 
 type SkillItemType = {
-    id:string
+    id: string
     title: string
 }
 
@@ -13,7 +13,7 @@ export const SkillItem = (props: SkillItemType) => {
             <div className={s.icon}>
                 <HomeSvgSelector id={props.id}/>
                 <div>
-                    {props.title}
+                    <span className={s.title}>{props.title}</span>
                 </div>
             </div>
 
