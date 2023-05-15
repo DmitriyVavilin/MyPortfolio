@@ -3,17 +3,21 @@
     justify-content: center;
     align-items: center;
     border-color: white;
-    width: 250px;
+    width: 150px;
     height: 150px;
     text-align: center;
     margin: 10px;
 }
 
-.icon {
+
+.icon_item {
     width: 100px;
     height: 100px;
 }
-
+.icon_item:hover{
+    transition: 2s;
+    transform: scale(1.5) ;
+}
 .title {
     font-size: 24px;
     margin-bottom: 15px;
