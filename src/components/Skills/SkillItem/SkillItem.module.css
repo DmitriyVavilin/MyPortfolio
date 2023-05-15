@@ -2,9 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-color: white;
     width: 250px;
-    height: 250px;
-    background-color: white;
+    height: 150px;
     text-align: center;
     margin: 10px;
 }
@@ -17,6 +17,8 @@
 .title {
     font-size: 24px;
     margin-bottom: 15px;
+    color: #ffffff;
+    font-weight: 300;
 }
 
 .description {

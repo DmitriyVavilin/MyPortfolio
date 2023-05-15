@@ -22,4 +22,4 @@ function App() {
 
 export default App;
 
-//https://preview.themeforest.net/item/spirit-portfolioresume-html-template-for-developers-programmers-and-freelancers/full_screen_preview/17094383?_ga=2.243555141.1736568102.1676814821-200242335.1676814821
+// https://preview.themeforest.net/item/spirit-portfolioresume-html-template-for-developers-programmers-and-freelancers/full_screen_preview/17094383?_ga=2.243555141.1736568102.1676814821-200242335.1676814821
