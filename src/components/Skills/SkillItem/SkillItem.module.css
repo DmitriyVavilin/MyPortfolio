@@ -15,7 +15,7 @@
     height: 100px;
 }
 .icon_item:hover{
-    transition: 2s;
+    transition: 1s;
     transform: scale(1.5) ;
 }
 .title {
