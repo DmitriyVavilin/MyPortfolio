@@ -1,10 +1,10 @@
 .main {
     height: 100vh;
-    background-image: url("https://nowwherecampers.com/wp-content/uploads/2021/07/CONTACT-US-header-scaled.jpg");
+    width: 100%;
+    background-image: url("https://i.gifer.com/IrM.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 .mainContainer {
     flex-direction: row;
@@ -25,9 +25,10 @@
 }
 
 .title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 70px;
     color: #ffffff;
-    font-weight: 600;
 }
 
 h1 {
