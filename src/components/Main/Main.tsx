@@ -23,9 +23,9 @@ export const Main = (props: MainType) => {
                                     'I Like Coding',
                                     2000,
                                 ]}
-                                repeat={Infinity}
-                                wrapper="span"
-                                cursor={true}
+                                // repeat={Infinity}
+                                // wrapper="span"
+                                // cursor={true}
                             />
                         </h1>
                     </div>
