@@ -2,15 +2,12 @@ import React from 'react';
 import s from './Main.module.css'
 import StyleContainer from '../commo/styles/Container.module.css'
 import {TypeAnimation} from "react-type-animation";
-import {Header} from "../Header/Header";
-import MatrixRain from "./MatrixRain";
 
 type MainType = {}
 
 export const Main = (props: MainType) => {
     return (
         <div className={s.main}>
-            <Header/>
             <div className={`${StyleContainer.container} ${s.mainContainer}`}>
                     <div className={s.headerText}>
                         <span className={s.text}>Hello There!</span>
