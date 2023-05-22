@@ -21,15 +21,3 @@ export const SkillItem = (props: SkillItemType) => {
     );
 };
 
-// export const SkillItem = (props: SkillItemType) => {
-//     return (
-//         <div className={s.skillItem}>
-//             <div className={s.icon}></div>
-//             <h3 className={s.title}>{props.title}</h3>
-//             <span className={s.description}>
-//                 {props.description}
-//             </span>
-//         </div>
-//     );
-// };
-

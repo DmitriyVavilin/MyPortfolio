@@ -1,0 +1,14 @@
+
+.swiper-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.swiper {
+    width: 600px;
+}
+.swiper-slide {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}

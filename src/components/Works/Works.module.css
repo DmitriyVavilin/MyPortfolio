@@ -1,6 +1,7 @@
 .worksBlock {
     min-height: 100vh;
-    background-color: rgba(214 214 214);
+    background-color: rgba(17 100 180);
+    opacity: 0.9;
 }
 
 .worksContainer {
@@ -8,32 +9,36 @@
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #ffffff;
-
+    background-image: url("https://hdoboi.kiev.ua/images/25.Jun.2019-planety-zvezdy-tumannost-vselennaya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .title {
+    color: #a79fec;
     margin-top: 60px;
     margin-bottom: 60px;
     font-size: 50px;
     font-weight: 700;
 }
 
-.works {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    /*border: 1px solid ;*/
+.title:hover {
+    color: white;
 }
 
+.works {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+    /*border: 1px solid ;*/
+}
 
 @media (max-width: 1124px) {
     .works {
         justify-content: space-around;
     }
 }
-
 
 
 @media (max-width: 625px) {

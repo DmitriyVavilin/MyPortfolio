@@ -6,7 +6,6 @@ import {Skills} from "./components/Skills/Skills";
 import {Works} from "./components/Works/Works";
 import {Contacts} from "./components/Contacts/Contacts";
 import {Footer} from "./components/Footer/Footer";
-import MatrixRain from "./components/Main/MatrixRain";
 
 function App() {
     return (

@@ -5,6 +5,7 @@
     text-align: center;
     /*border: 1px solid;*/
     width: 450px;
+    padding-right: 15px;
 }
 
 .worksItemIcon {
@@ -35,7 +36,6 @@
     border: white solid 1px;
     padding: 20px;
     background: #000000;
-    margin-bottom: 15px;
 }
 
 .title {
