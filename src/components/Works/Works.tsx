@@ -26,11 +26,14 @@ export const Works = () => {
     return (
         <div className={s.worksBlock}>
             <div className={`${StyleContainer.container} ${s.worksContainer}`}>
-                <h2 className={s.title}>My Works.</h2>
+                <div className={s.colored}>
+                    <h2 className={s.title}>My Works.</h2>
+                </div>
                 <div className={s.works}>
                     <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                         <SwiperSlide><WorksItem style={social} title={'TodoList'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
                         <SwiperSlide><WorksItem style={todo} title={'TodoList'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
+                        <SwiperSlide><WorksItem style={social} title={'TodoList'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
                         <SwiperSlide><WorksItem style={social} title={'TodoList'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
                     </Swiper>
                 </div>
