@@ -1,7 +1,6 @@
 .worksBlock {
     min-height: 100vh;
     background-color: rgba(25 42 58);
-    opacity: 0.9;
 }
 
 .worksContainer {
@@ -31,6 +30,7 @@
     width: 100%;
 }
 
+
 @media (max-width: 1124px) {
     .works {
         justify-content: space-around;
@@ -43,6 +43,7 @@
         margin-top: 45px;
         margin-bottom: 50px;
     }
+
 }
 
 

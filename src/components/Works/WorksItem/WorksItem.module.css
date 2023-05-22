@@ -7,6 +7,10 @@
     padding-right: 15px;
 }
 
+.worksItemBlock:hover {
+    opacity: 0.7;
+}
+
 .worksItemIcon {
     border: 1px solid white;
     display: flex;
@@ -49,9 +53,14 @@
 }
 
 @media (max-width: 565px) {
+    .worksItemBlock{
+        width: auto;
+    }
+
     .worksItemIcon {
-        width: 100%;
+        margin: 0 auto;
         margin-bottom: 15px;
+        width: 300px;
     }
 
     .description {
