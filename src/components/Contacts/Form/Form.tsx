@@ -16,30 +16,35 @@ export const SignupForm = () => {
     return (
         <div className={s.form}>
             <form onSubmit={formik.handleSubmit}>
-                <input
-                    id="firstName"
-                    name="firstName"
-                    type="text"
-                    placeholder={'Your name*'}
-                    onChange={formik.handleChange}
-                    value={formik.values.firstName}
-                />
-
-                <input
-                    id="email"
-                    name="email"
-                    type="email"
-                    placeholder={'Your e-mail*'}
-                    onChange={formik.handleChange}
-                    value={formik.values.email}
-                />
+                <label>
+                    <input
+                        id="firstName"
+                        name="firstName"
+                        type="text"
+                        placeholder={'Your name*'}
+                        onChange={formik.handleChange}
+                        value={formik.values.firstName}
+                    />
+                </label>
+                <label>
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder={'Your e-mail*'}
+                        onChange={formik.handleChange}
+                        value={formik.values.email}
+                    />
+                </label>
+                <label>
                 <textarea
                     id="lastName"
                     name="lastName"
                     onChange={formik.handleChange}
                     value={formik.values.lastName}
-                    placeholder={'Your message'}
-                />
+                    placeholder={'Your message'}/>
+
+                </label>
                 <button className={s.buttonSend} type="submit">SEND MESSAGE</button>
             </form>
         </div>
