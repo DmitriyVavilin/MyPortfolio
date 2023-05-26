@@ -5,13 +5,14 @@
     width: 501px;
 }
 
-input {
+.form input {
     width: 499px;
     padding: 10px 0 10px;
     margin-bottom: 15px;
+
 }
 
-textarea {
+.form textarea {
     height: 100px;
     width: 499px;
 }
@@ -32,10 +33,10 @@ textarea {
 
 @media (max-width: 626px) {
 
-    input {
+   .form input {
         width: 100%;
     }
-    textarea {
+   .form textarea {
         width: 100%;
     }
 

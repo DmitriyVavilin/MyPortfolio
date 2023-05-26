@@ -6,7 +6,7 @@ import socialNetworkIcon from './../../assets/img/socialNetwork.jpeg'
 import todoListIcon from './../../assets/img/todoList.jpg'
 import {Swiper, SwiperSlide} from "swiper/react";
 import './WorksItem/slaider.css'
-import {Navigation} from "swiper";
+import {FreeMode, Navigation, Pagination} from "swiper";
 
 export const Works = () => {
     const social = {
@@ -22,7 +22,6 @@ export const Works = () => {
     }
 
 
-
     return (
         <div className={s.worksBlock}>
             <div className={`${StyleContainer.container} ${s.worksContainer}`}>
@@ -30,11 +29,18 @@ export const Works = () => {
                     <h2 className={s.title}>My Works.</h2>
                 </div>
                 <div className={s.works}>
-                    <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-                        <SwiperSlide><WorksItem style={social} title={'TodoList'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
-                        <SwiperSlide><WorksItem style={todo} title={'TodoList'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
-                        <SwiperSlide><WorksItem style={social} title={'TodoList'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
-                        <SwiperSlide><WorksItem style={social} title={'TodoList'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
+                    <Swiper
+                        centeredSlides={true}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        modules={[Pagination]} className="mySwiper">
+                        <SwiperSlide><WorksItem style={social} title={'TodoList'}
+                                                description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
+                        <SwiperSlide><WorksItem style={todo} title={'TodoList'}
+                                                description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
+                        <SwiperSlide><WorksItem style={social} title={'TodoList'}
+                                                description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
                     </Swiper>
                 </div>
             </div>

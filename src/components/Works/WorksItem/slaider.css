@@ -1,28 +1,11 @@
 
 .swiper-wrapper{
     display: flex;
-    justify-content: space-between;
 }
 
 .swiper {
-    margin: 0 auto;
-    width: 500px;
-}
-.swiper-slide {
-    margin: 0 auto;
-    height: 100%;
     width: 100%;
-    text-align: center;
+    height: 100%;
 }
 
-@media (max-width: 565px) {
-    .worksItemIcon {
-        margin: 0 auto;
-        margin-bottom: 15px;
-        width: 300px;
-    }
 
-    .description {
-        margin-bottom: 15px;
-    }
-}
