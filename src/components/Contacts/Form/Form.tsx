@@ -7,7 +7,9 @@ export const Form = () => {
 
     const styles = {
         color: 'white',
-        marginTop: '20px'
+        marginTop: '20px',
+        opacity: '0.9',
+        marginBottom: '20px',
     }
 
 
