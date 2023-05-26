@@ -2,13 +2,11 @@
     background-image: url("../../assets/img/cuberpank.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     background-color: #191919;
 }
 
 .contactsContainer {
     align-items: center;
-    flex-direction: column;
     justify-content: center;
 }
 

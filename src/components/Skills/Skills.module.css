@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     background-color: #000000;
-    min-height: 100vh;
 }
 
 .skillsContainer {
