@@ -1,5 +1,5 @@
 .contactsBlock {
-    background-image: url("https://phonoteka.org/uploads/posts/2021-06/1624761883_24-phonoteka_org-p-nait-siti-kiberpank-oboi-krasivo-25.jpg");
+    background-image: url("../../assets/img/cuberpank.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -22,6 +22,6 @@
 .title {
     color: #ffffff;
     margin-bottom: 60px;
-    font-size: 30px;
+    font-size: 60px;
     font-weight: 900;
 }

@@ -6,9 +6,10 @@
 }
 
 .form input {
+    font-size: 14px;
     color: #ffffff;
-    width: 499px;
-    padding: 10px 0 10px;
+    width: 474px;
+    padding: 20px 15px 15px;
     margin-bottom: 15px;
     border-radius: 7px;
     border: 3px solid #a393e6;
@@ -17,36 +18,32 @@
 }
 
 .form textarea {
+    font-size: 14px;
     color: #ffffff;
     border-radius: 7px;
     background: #295d92;
     border: 3px solid #a393e6;
+    padding: 20px 15px 15px;
     opacity: 0.8;
     height: 100px;
-    width: 499px;
+    width: 474px;
 }
 
 
 .buttonSend {
-    padding: 10px 15px;
-    margin-top: 70px;
-    font-size: 25px;
-    width: 250px;
-    background-color: #ff9f9f;
-    border: none;
+    color: red;
 }
 
-.buttonSend:hover {
-    background-color: #c96969;
-}
+
 
 
 @media (max-width: 626px) {
 
-   .form input {
+    .form input {
         width: 100%;
     }
-   .form textarea {
+
+    .form textarea {
         width: 100%;
     }
 

@@ -9,6 +9,7 @@ body {
 
 ::-webkit-input-placeholder { /* WebKit browsers */
     color: #ffffff;
+    opacity: 0.8;
 }
 
 code {

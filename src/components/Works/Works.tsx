@@ -6,7 +6,7 @@ import socialNetworkIcon from './../../assets/img/socialNetwork.jpeg'
 import todoListIcon from './../../assets/img/todoList.jpg'
 import {Swiper, SwiperSlide} from "swiper/react";
 import './WorksItem/slaider.css'
-import {FreeMode, Navigation, Pagination} from "swiper";
+import {Pagination} from "swiper";
 
 export const Works = () => {
     const social = {

@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Contacts.module.css'
 import StyleContainer from "../commo/styles/Container.module.css";
-import {SignupForm} from "./Form/Form";
+import {Form} from "./Form/Form";
 
 export const Contacts = () => {
     return (
@@ -9,7 +9,7 @@ export const Contacts = () => {
             <div className={`${StyleContainer.container} ${s.contactsContainer}`}>
                 <h2 className={s.title}>Contacts Me</h2>
                 <div className={s.contactsFormBlock}>
-                    <SignupForm/>
+                    <Form/>
                 </div>
             </div>
         </div>

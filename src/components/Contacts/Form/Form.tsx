@@ -1,8 +1,16 @@
 import React from 'react';
 import {useFormik} from 'formik';
 import s from './Form.module.css'
+import {Button} from "@mui/material";
 
-export const SignupForm = () => {
+export const Form = () => {
+
+    const styles = {
+        color: 'white',
+        marginTop: '20px'
+    }
+
+
     const formik = useFormik({
         initialValues: {
             firstName: '',
@@ -45,7 +53,7 @@ export const SignupForm = () => {
                     placeholder={'Your message'}/>
 
                 </label>
-                <button className={s.buttonSend} type="submit">SEND MESSAGE</button>
+                <Button style={styles} variant="contained" type="submit">SEND MESSAGE</Button>
             </form>
         </div>
     );
