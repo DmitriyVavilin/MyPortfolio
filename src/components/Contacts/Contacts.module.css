@@ -1,8 +1,9 @@
 .contactsBlock {
-    background-image: url("../../assets/img/cuberpank.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #191919;
+    /*background-image: url("../../assets/img/cuberpank.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-color: #191919;*/
+    background: #000000;
 }
 
 .contactsContainer {
@@ -19,7 +20,7 @@
 
 .title {
     color: #ffffff;
-    margin-bottom: 60px;
     font-size: 60px;
     font-weight: 900;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
 }

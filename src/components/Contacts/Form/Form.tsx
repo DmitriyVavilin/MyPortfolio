@@ -8,8 +8,10 @@ export const Form = () => {
     const styles = {
         color: 'white',
         marginTop: '20px',
-        opacity: '0.9',
+        opacity: '0.8',
         marginBottom: '20px',
+        border: '2px solid #a393e6',
+        background: '#18334e'
     }
 
 
