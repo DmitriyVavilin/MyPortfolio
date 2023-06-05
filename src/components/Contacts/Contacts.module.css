@@ -1,4 +1,8 @@
 .contactsBlock {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
     /*background-image: url("../../assets/img/cuberpank.jpg");*/
     /*background-repeat: no-repeat;*/
     /*background-size: cover;*/
@@ -7,8 +11,11 @@
 }
 
 .contactsContainer {
-    align-items: center;
+    position: relative;
+    z-index: 10;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .contactsFormBlock {
