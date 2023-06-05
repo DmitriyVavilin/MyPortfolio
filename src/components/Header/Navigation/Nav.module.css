@@ -10,8 +10,13 @@
 .nav a {
     color: white;
     text-decoration: none;
+    font-weight: 600;
 }
 
-a:hover {
-    color: #d96969;
+.nav a:hover {
+    color: green;
+}
+
+.nav a:active {
+    scale: 1.1;
 }

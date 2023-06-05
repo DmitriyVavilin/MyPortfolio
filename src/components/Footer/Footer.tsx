@@ -2,6 +2,11 @@ import React from 'react';
 import s from './Footer.module.css'
 import StyleContainer from "../commo/styles/Container.module.css";
 import {SocialNetwork} from "./SocialsNetwork/SocialNetwork";
+import instagram from './../../assets/socialSvg/instagram.svg'
+import git from './../../assets/socialSvg/git.svg'
+import linkedin from './../../assets/socialSvg/linkedin.svg'
+import telegram from './../../assets/socialSvg/telegramBlack.svg'
+
 
 export const Footer = () => {
     return (
@@ -9,10 +14,10 @@ export const Footer = () => {
             <div className={`${StyleContainer.container} ${s.footerContainer}`}>
                 <h2 className={s.title}>Vavilin Dmitryi</h2>
                     <div className={s.footerSocial}>
-                        <SocialNetwork/>
-                        <SocialNetwork/>
-                        <SocialNetwork/>
-                        <SocialNetwork/>
+                        <SocialNetwork id={instagram}/>
+                        <SocialNetwork id={git}/>
+                        <SocialNetwork id={linkedin}/>
+                        <SocialNetwork id={telegram}/>
                     </div>
                 <h2 className={s.footerText}>2023 All rights reserved</h2>
             </div>
