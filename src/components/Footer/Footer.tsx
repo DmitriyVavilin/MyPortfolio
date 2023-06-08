@@ -12,14 +12,13 @@ export const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={`${StyleContainer.container} ${s.footerContainer}`}>
-                <h2 className={s.title}>Vavilin Dmitryi</h2>
+                <h2 className={s.title}>YOU CAN FIND ME HERE:</h2>
                     <div className={s.footerSocial}>
                         <SocialNetwork id={instagram}/>
                         <SocialNetwork id={git}/>
                         <SocialNetwork id={linkedin}/>
                         <SocialNetwork id={telegram}/>
                     </div>
-                <h2 className={s.footerText}>2023 All rights reserved</h2>
             </div>
         </div>
     );

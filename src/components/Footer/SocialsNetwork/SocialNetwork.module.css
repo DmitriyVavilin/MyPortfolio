@@ -1,7 +1,13 @@
 .socialNetworkBlock {
+    margin-right: 30px;
+    margin-bottom: 15px;
 }
 
 .socialNetworkBlock:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
+.socialNetworkBlock img {
+    width: 40px;
+    height: 40px;
+}

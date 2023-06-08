@@ -1,5 +1,6 @@
 .footerBlock {
-    background-color: #262121;
+    background-color: #000000;
+    border-top: 1px solid white;
 }
 
 .footerContainer {
@@ -10,29 +11,19 @@
 
 .footerSocial {
     display: flex;
-    justify-content: space-between;
-    /*border: 1px solid red;*/
+    justify-content: center;
     width: 650px;
 }
 
-.footerText {
-    margin-top: 50px;
-    background-color: #a393e6;
-}
 
 .title {
-    background-color: #a393e6;
-    margin-top: 50px;
-    margin-bottom: 35px;
-    font-size: 30px;
+    font-size: 24px;
+    color: #ffffff;
+    margin: 15px auto;
 }
 
 @media (max-width: 818px) {
     .footerSocial {
         width: 100%;
-    }
-
-    .title {
-
     }
 }
