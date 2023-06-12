@@ -6,7 +6,8 @@ import socialNetworkIcon from './../../assets/img/socialNetwork.jpeg'
 import todoListIcon from './../../assets/img/todoList.jpg'
 import {Swiper, SwiperSlide} from "swiper/react";
 import './WorksItem/slaider.css'
-import {Pagination} from "swiper";
+import {FreeMode, Pagination} from "swiper";
+import MatrixRain from "../Main/MatrixRain";
 
 export const Works = () => {
     const social = {
@@ -30,16 +31,21 @@ export const Works = () => {
                 </div>
                 <div className={s.works}>
                     <Swiper
-                        centeredSlides={true}
+                        slidesPerView={3}
+                        spaceBetween={15}
+                        freeMode={true}
                         pagination={{
                             clickable: true,
                         }}
-                        modules={[Pagination]} className="mySwiper">
+                        modules={[FreeMode, Pagination]}
+                        className="mySwiper">
                         <SwiperSlide><WorksItem style={social} title={'TodoList'}
                                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
                         <SwiperSlide><WorksItem style={todo} title={'TodoList'}
                                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
                         <SwiperSlide><WorksItem style={social} title={'TodoList'}
+                                                description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
+                   <SwiperSlide><WorksItem style={social} title={'TodoList'}
                                                 description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua'}/></SwiperSlide>
                     </Swiper>
                 </div>
