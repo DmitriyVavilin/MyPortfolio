@@ -1,21 +1,41 @@
 .socialNetworkBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 30px;
     margin-bottom: 15px;
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .socialNetworkBlock:last-child {
     margin-right: 0px;
 }
 
-.socialNetworkBlock img:hover {
-    transition: 1s;
+
+/*.socialNetworkBlock:hover {*/
+/*    background: white;*/
+/*}*/
+
+.socialNetworkBlock:hover {
+
+}
+
+.socialNetworkBlock:hover {
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
     transform: scale(1.3) ;
 }
 
 
 .socialNetworkBlock img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .socialNetworkBlock img:active {
