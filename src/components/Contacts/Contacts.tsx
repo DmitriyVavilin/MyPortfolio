@@ -6,7 +6,7 @@ import MatrixRain from "../Main/MatrixRain";
 
 export const Contacts = () => {
     return (
-        <div className={s.contactsBlock}>
+        <div id={'contact'} className={s.contactsBlock}>
             <MatrixRain/>
             <div className={`${StyleContainer.container} ${s.contactsContainer}`}>
                 <h2 className={s.title}>Contacts Me</h2>

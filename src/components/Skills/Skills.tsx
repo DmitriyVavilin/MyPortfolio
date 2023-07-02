@@ -8,7 +8,7 @@ type SkillsType = {}
 
 export const Skills = (props: SkillsType) => {
     return (
-        <div className={s.skillsBlock}>
+        <div id={'skills'} className={s.skillsBlock}>
             <div className={`${StyleContainer.container} ${s.skillsContainer}`}>
                     <h2 className={s.title}>My professional skills</h2>
                 <div className={s.skills}>

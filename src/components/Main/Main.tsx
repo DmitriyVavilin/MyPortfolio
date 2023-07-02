@@ -8,7 +8,7 @@ type MainType = {}
 
 export const Main = (props: MainType) => {
     return (
-        <div className={s.main}>
+        <div id={'main'} className={s.main}>
             <MatrixRain/>
             <div className={`${StyleContainer.container} ${s.mainContainer}`}>
                 <div className={s.headerText}>
