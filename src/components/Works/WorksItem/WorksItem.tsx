@@ -14,12 +14,13 @@ type WorksItemType = {
 export const WorksItem = (props:WorksItemType) => {
     return (
         <div className={s.worksItemBlock}>
-            <div style={props.style} className={s.worksItemIcon}>
-                <a className={s.titleWorksItemIcon}>Open</a>
+            <div style={props.style} className={s.worksIcon}>
+                <span className={s.description}>{props.description}</span>
+                <h2 className={s.title}>{props.title}</h2>
+                <a className={s.btnOpenProject}>VIEW DETAILS</a>
             </div>
             <div className={s.descriptionBlock}>
-                <h2 className={s.title}>{props.title}</h2>
-                <span className={s.description}>{props.description}</span>
+
             </div>
         </div>
     );

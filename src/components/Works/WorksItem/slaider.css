@@ -1,5 +1,5 @@
 
-.swiper-wrapper{
+.swiper-wrapper {
     display: flex;
 }
 
@@ -9,3 +9,8 @@
 }
 
 
+@media (max-width: 1124px) {
+    .works {
+        flex-direction: column;
+    }
+}

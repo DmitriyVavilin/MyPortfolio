@@ -7,7 +7,6 @@
 }
 
 .skillsContainer {
-    background-color: #000000;
     display: flex;
     justify-content: center;
     flex-direction: column;
