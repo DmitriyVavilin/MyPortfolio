@@ -14,7 +14,8 @@
 }
 
 .nav a:hover {
-    color: green;
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 .nav a:active {

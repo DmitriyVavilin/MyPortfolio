@@ -24,6 +24,23 @@
     flex-wrap: wrap;
 }
 
+.btnGithub {
+    display: block;
+    text-align: center;
+    margin: 100px 0;
+    width: 250px;
+    padding: 20px 0;
+    font-size: 30px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: transform 0.3s;
+}
+
+.btnGithub:hover {
+    background: #ffffff;
+    color: #000000;
+    transform: translateY(-6px);
+}
 
 @media (max-width: 625px) {
     .title {

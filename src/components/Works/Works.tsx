@@ -32,6 +32,7 @@ export const Works = () => {
                     <WorksItem style={social} title={'TodoList'}
                                description={'React/Redux-toolkit/TypeScript/Hooks/MUI'}/>
                </div>
+                <a className={s.btnGithub}>Open GitHub</a>
             </div>
         </div>
     );
