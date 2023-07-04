@@ -3,10 +3,7 @@ import s from './Skills.module.css'
 import StyleContainer from "../commo/styles/Container.module.css";
 import {SkillItem} from "./SkillItem/SkillItem";
 
-
-type SkillsType = {}
-
-export const Skills = (props: SkillsType) => {
+export const Skills = () => {
     return (
         <div id={'skills'} className={s.skillsBlock}>
             <div className={`${StyleContainer.container} ${s.skillsContainer}`}>

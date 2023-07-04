@@ -4,9 +4,7 @@ import StyleContainer from '../commo/styles/Container.module.css'
 import {TypeAnimation} from "react-type-animation";
 import MatrixRain from "./MatrixRain";
 
-type MainType = {}
-
-export const Main = (props: MainType) => {
+export const Main = () => {
     return (
         <div id={'main'} className={s.main}>
             <MatrixRain/>

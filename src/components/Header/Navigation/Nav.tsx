@@ -2,8 +2,7 @@ import React from 'react';
 import s from './Nav.module.css'
 import {Link} from "react-scroll";
 
-type NavType = {}
-export const Nav = (props: NavType) => {
+export const Nav = () => {
     return (
         <div className={s.nav}>
             <Link
@@ -14,7 +13,7 @@ export const Nav = (props: NavType) => {
                 smooth={true}
                 duration={500}
                 offset={-55}
-            >Главная</Link>
+            >Home</Link>
             <Link
                 activeClass={s.active}
                 className={s.Link}
@@ -23,7 +22,16 @@ export const Nav = (props: NavType) => {
                 smooth={true}
                 duration={500}
                 offset={-55}
-            >Скиллы</Link>
+            >About me</Link>
+            <Link
+                activeClass={s.active}
+                className={s.Link}
+                to="skills"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-55}
+            >Skills</Link>
             <Link
                 activeClass={s.active}
                 className={s.Link}
@@ -32,7 +40,7 @@ export const Nav = (props: NavType) => {
                 smooth={true}
                 duration={500}
                 offset={-55}
-            >Работы</Link>
+            >Project</Link>
             <Link
                 activeClass={s.active}
                 className={s.Link}
@@ -41,7 +49,7 @@ export const Nav = (props: NavType) => {
                 smooth={true}
                 duration={500}
                 offset={-55}
-            >Контакты</Link>
+            >Contacts</Link>
         </div>
     );
 };

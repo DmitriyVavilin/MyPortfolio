@@ -6,12 +6,14 @@ import {Skills} from "./components/Skills/Skills";
 import {Works} from "./components/Works/Works";
 import {Contacts} from "./components/Contacts/Contacts";
 import {Footer} from "./components/Footer/Footer";
+import {AboutMe} from "./components/AboutMe/AboutMe";
 
 function App() {
     return (
         <div className="App">
             <Header/>
             <Main/>
+            <AboutMe/>
             <Skills/>
             <Works/>
             <Contacts/>
