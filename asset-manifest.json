@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.498cce02.css",
-    "main.js": "/MyPortfolio/static/js/main.d1706a38.js",
+    "main.css": "/MyPortfolio/static/css/main.5882320c.css",
+    "main.js": "/MyPortfolio/static/js/main.1a97ef03.js",
     "static/js/787.28cb0dcd.chunk.js": "/MyPortfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/socialNetwork.jpg": "/MyPortfolio/static/media/socialNetwork.ca3ab71193b3bc59430a.jpg",
+    "static/media/photoMe.jpg": "/MyPortfolio/static/media/photoMe.87440c2317dd5bb6e131.jpg",
     "static/media/todoList.jpg": "/MyPortfolio/static/media/todoList.f88348ab7951edb1b51a.jpg",
-    "static/media/instagram.svg": "/MyPortfolio/static/media/instagram.21623f41b60c9975f04913865d89b8b9.svg",
+    "static/media/codewars.svg": "/MyPortfolio/static/media/codewars.50a0b5aafdc0f19cf45fa820126c588c.svg",
     "index.html": "/MyPortfolio/index.html",
     "static/media/git.svg": "/MyPortfolio/static/media/git.ae90dc8d560c10e9000d795f76310e62.svg",
     "static/media/telegramBlack.svg": "/MyPortfolio/static/media/telegramBlack.9365da7e0cbd05947d723a6bd8be0da3.svg",
     "static/media/linkedin.svg": "/MyPortfolio/static/media/linkedin.97dbb31bac2cbacd7fb98cea21aaed16.svg",
-    "main.498cce02.css.map": "/MyPortfolio/static/css/main.498cce02.css.map",
-    "main.d1706a38.js.map": "/MyPortfolio/static/js/main.d1706a38.js.map",
+    "main.5882320c.css.map": "/MyPortfolio/static/css/main.5882320c.css.map",
+    "main.1a97ef03.js.map": "/MyPortfolio/static/js/main.1a97ef03.js.map",
     "787.28cb0dcd.chunk.js.map": "/MyPortfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.498cce02.css",
-    "static/js/main.d1706a38.js"
+    "static/css/main.5882320c.css",
+    "static/js/main.1a97ef03.js"
   ]
 }
