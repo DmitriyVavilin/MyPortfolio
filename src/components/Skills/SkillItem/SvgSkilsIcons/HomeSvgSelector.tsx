@@ -110,8 +110,8 @@ export const HomeSvgSelector = (props: HomeSvgSelectorType) => {
                 </g>
                 <defs>
                     <filter id="filter0_di_4967_172702" x="0" y="0" width="132" height="132"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                            filterUnits="userSpaceOnUse">
+                        <feFlood  result="BackgroundImageFix"></feFlood>
                         <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
                                        result="hardAlpha"></feColorMatrix>
                         <feOffset dy="4"></feOffset>

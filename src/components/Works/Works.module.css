@@ -33,6 +33,7 @@
     color: #ffffff;
     border: 1px solid #ffffff;
     transition: transform 0.3s;
+    text-decoration: none;
 }
 
 .btnGithub:hover {
