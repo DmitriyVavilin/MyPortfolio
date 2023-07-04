@@ -60,6 +60,13 @@
         width: 350px;
         height: 400px;
     }
+    .title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .nameJob{
+        font-size: 25px;
+    }
 }
 
 

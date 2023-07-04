@@ -12,12 +12,20 @@ export const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={`${StyleContainer.container} ${s.footerContainer}`}>
-                    <div className={s.footerSocial}>
+                <div className={s.footerSocial}>
+                    <a href={'https://www.codewars.com/users/Dmitriy_Vavilin'}>
                         <SocialNetwork id={codeWars}/>
+                    </a>
+                    <a href={'https://github.com/DmitriyVavilin'}>
                         <SocialNetwork id={git}/>
+                    </a>
+                    <a href={'www.linkedin.com/in/dmitriyvavilin'}>
                         <SocialNetwork id={linkedin}/>
+                    </a>
+                    <a href={'https://t.me/dvVavilin'}>
                         <SocialNetwork id={telegram}/>
-                    </div>
+                    </a>
+                </div>
             </div>
         </div>
     );

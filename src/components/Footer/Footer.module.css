@@ -16,6 +16,10 @@
     width: 650px;
 }
 
+.footerSocial a {
+    margin-right: 20px;
+}
+
 @media (max-width: 818px) {
     .footerSocial {
         width: 100%;

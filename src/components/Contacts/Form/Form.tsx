@@ -26,8 +26,8 @@ export const Form = () => {
         },
     });
     return (
-        <div className={s.form}>
-            <form onSubmit={formik.handleSubmit}>
+        < >
+            <form onSubmit={formik.handleSubmit} className={s.form}>
                 <label>
                     <input
                         id="firstName"
@@ -59,7 +59,7 @@ export const Form = () => {
                 </label>
                 <Button style={styles} variant="contained" type="submit">SEND MESSAGE</Button>
             </form>
-        </div>
+        </>
     );
 };
 

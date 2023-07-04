@@ -20,10 +20,9 @@ export const Contacts = () => {
                         repeat={Infinity}
                     />
                 </h2>
-                <div className={s.contactsFormBlock}>
-                    <Form/>
-                </div>
+                <Form/>
             </div>
+
         </div>
     );
 };

@@ -5,12 +5,10 @@ type SocialNetworkType = {
     id: string
 }
 
-export const SocialNetwork:React.FC<SocialNetworkType> = ({id}) => {
+export const SocialNetwork: React.FC<SocialNetworkType> = ({id}) => {
     return (
         <div className={s.socialNetworkBlock}>
-            <a href={'https://www.codewars.com/users/Dmitriy_Vavilin'}>
-                <img src={id}/>
-            </a>
+            <img src={id}/>
         </div>
     );
 };
