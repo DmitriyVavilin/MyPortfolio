@@ -11,10 +11,9 @@
 
 .title {
     color: #ffff;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 60px 0;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .works {

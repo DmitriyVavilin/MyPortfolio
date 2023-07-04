@@ -8,7 +8,7 @@ type SocialNetworkType = {
 export const SocialNetwork:React.FC<SocialNetworkType> = ({id}) => {
     return (
         <div className={s.socialNetworkBlock}>
-            <a href={'#'}>
+            <a>
                 <img src={id}/>
             </a>
         </div>

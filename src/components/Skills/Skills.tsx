@@ -12,13 +12,15 @@ export const Skills = () => {
                     <SkillItem id={'js'} title={'JavaScript'}/>
                     <SkillItem id={'ts'} title={'TypeScript'}/>
                     <SkillItem id={'react'} title={'React'}/>
-                    <SkillItem id={'redux'} title={'Redux'}/>
+                    <SkillItem id={'redux'} title={'Redux-TK'}/>
                     <SkillItem id={'git'} title={'Git'}/>
                     <SkillItem id={'html'} title={'Html5'}/>
                     <SkillItem id={'css'} title={'Css3'}/>
                     <SkillItem id={'rest'} title={'Rest Api'}/>
-                    <SkillItem id={'union-test'} title={'Union Test'}/>
+                    <SkillItem id={'union-test'} title={'Union Tests'}/>
                     <SkillItem id={'material-ui'} title={'Material UI'}/>
+                    <SkillItem id={'story'} title={'StoryBook'}/>
+                    <SkillItem id={'formik'} title={'Formik'}/>
                 </div>
             </div>
         </div>

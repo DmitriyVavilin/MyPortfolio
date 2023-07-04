@@ -10,20 +10,21 @@ export const Main = () => {
             <MatrixRain/>
             <div className={`${StyleContainer.container} ${s.mainContainer}`}>
                 <div className={s.headerText}>
-                        <span className={s.text}>Hello There!</span>
-                        <h1 className={s.title}>
-                            <TypeAnimation
-                                sequence={[
-                                    ` 'I'm Dmitriy`,
-                                    1700,
-                                    `I'm Frontend Developer`,
-                                    2000,
-                                    'I Like Coding',
-                                    2000,
-                                ]}
-                            />
-                        </h1>
-                    </div>
+                    <span className={s.text}>Hello There!</span>
+                    <h1 className={s.title}>
+                        <TypeAnimation
+                            sequence={[
+                                ` 'I'm Dmitriy`,
+                                1700,
+                                `I'm Frontend Developer`,
+                                2000,
+                                'I Like Coding',
+                                2000,
+                            ]}
+                            repeat={Infinity}
+                        />
+                    </h1>
+                </div>
             </div>
         </div>
     );

@@ -14,10 +14,9 @@
 
 .title {
     color: #ffffff;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin: 60px 0;
     font-size: 50px;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .skills {
