@@ -17,12 +17,12 @@ export const Nav = () => {
             <Link
                 activeClass={s.active}
                 className={s.Link}
-                to="skills"
+                to="about"
                 spy={true}
                 smooth={true}
                 duration={500}
                 offset={-55}
-            >About me</Link>
+            >About</Link>
             <Link
                 activeClass={s.active}
                 className={s.Link}

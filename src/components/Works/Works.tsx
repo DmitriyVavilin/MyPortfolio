@@ -23,7 +23,7 @@ export const Works = () => {
     return (
         <div id={"works"} className={s.worksBlock}>
             <div className={`${StyleContainer.container} ${s.worksContainer}`}>
-                    <h2 className={s.title}>My Latest Project.</h2>
+                    <h2 className={s.title}>My Latest Project</h2>
                 <div className={s.works}>
                     <WorksItem style={social} title={'Social Network'}
                                description={'React/Redux-toolkit/TypeScript/Hooks/MUI'}/>

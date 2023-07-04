@@ -16,14 +16,13 @@
     color: #ffffff;
     margin-top: 60px;
     margin-bottom: 60px;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 900;
 }
 
 .skills {
     display: flex;
     justify-content: space-between;
-    /*border: 1px solid;*/
     width: 100%;
     flex-wrap: wrap;
     margin-bottom: 60px;
