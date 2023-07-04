@@ -30,6 +30,7 @@
 
 @media (max-width: 674px) {
     .skills {
+        flex-flow: row wrap;
         justify-content: space-around;
         margin-bottom: 15px;
     }
