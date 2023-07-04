@@ -29,3 +29,11 @@
     font-weight: 600;
     margin: 60px 0;
 }
+
+@media (max-width: 625px) {
+    .title {
+        font-size: 30px;
+    }
+}
+
+

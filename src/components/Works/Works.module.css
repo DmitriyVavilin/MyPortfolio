@@ -43,8 +43,12 @@
 
 @media (max-width: 625px) {
     .title {
-        margin-top: 45px;
-        margin-bottom: 50px;
+        font-size: 30px;
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+    .btnGithub{
+        margin: 30px;
     }
 }
 

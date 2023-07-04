@@ -9,6 +9,14 @@
     justify-items: center;
 }
 
+.photo {
+    width: 600px;
+    height: 500px;
+    background-image: url("/src/assets/img/photoMe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .descriptionBlock {
     width: 100%;
     height: 100%;
@@ -42,6 +50,16 @@
    .aboutMeContainer {
        flex-direction: column;
    }
+    .photo {
+
+    }
+}
+
+@media (max-width: 600px) {
+    .photo {
+        width: 350px;
+        height: 400px;
+    }
 }
 
 

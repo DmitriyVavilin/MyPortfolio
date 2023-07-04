@@ -1,24 +1,13 @@
 import React from 'react';
 import s from './AboutMe.module.css'
 import StyleContainer from '../commo/styles/Container.module.css'
-import photo from '../../assets/img/photoMe.jpg'
 
 
 export const AboutMe = () => {
-
-    const photoMe = {
-        width: '600px',
-        height: '500px',
-        backgroundImage: 'url(' + photo + ')',
-        backgroundRepeat: ' no-repeat',
-        backgroundSize: 'cover'
-    }
-
-
     return (
         <div id={'about'} className={s.aboutMe}>
             <div className={`${StyleContainer.container} ${s.aboutMeContainer}`}>
-                <div style={photoMe}>
+                <div  className={s.photo}>
                 </div>
                 <div className={s.descriptionBlock}>
                     <h1 className={s.title}>DMITRIY VAVILIN</h1>

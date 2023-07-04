@@ -9,7 +9,7 @@ export const Form = () => {
         color: 'white',
         marginTop: '20px',
         opacity: '0.8',
-        marginBottom: '20px',
+        marginBottom: '50px',
         border: '2px solid #000000',
         background: '#18334e'
     }

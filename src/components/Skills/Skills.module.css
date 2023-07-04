@@ -31,11 +31,13 @@
 @media (max-width: 674px) {
     .skills {
         justify-content: space-around;
+        margin-bottom: 15px;
     }
 
     .title {
-        margin-top: 45px;
-        margin-bottom: 50px;
+        font-size: 29px;
+        margin-top: 25px;
+        margin-bottom: 0;
     }
 }
 
