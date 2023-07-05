@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.bccde7f6.css",
-    "main.js": "/MyPortfolio/static/js/main.fe6515c0.js",
+    "main.css": "/MyPortfolio/static/css/main.80ab4706.css",
+    "main.js": "/MyPortfolio/static/js/main.87dac4eb.js",
     "static/js/787.28cb0dcd.chunk.js": "/MyPortfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/socialNetwork.jpg": "/MyPortfolio/static/media/socialNetwork.ca3ab71193b3bc59430a.jpg",
     "static/media/photoMe.jpg": "/MyPortfolio/static/media/photoMe.87440c2317dd5bb6e131.jpg",
@@ -11,12 +11,13 @@
     "static/media/git.svg": "/MyPortfolio/static/media/git.ae90dc8d560c10e9000d795f76310e62.svg",
     "static/media/telegramBlack.svg": "/MyPortfolio/static/media/telegramBlack.9365da7e0cbd05947d723a6bd8be0da3.svg",
     "static/media/linkedin.svg": "/MyPortfolio/static/media/linkedin.97dbb31bac2cbacd7fb98cea21aaed16.svg",
-    "main.bccde7f6.css.map": "/MyPortfolio/static/css/main.bccde7f6.css.map",
-    "main.fe6515c0.js.map": "/MyPortfolio/static/js/main.fe6515c0.js.map",
+    "static/media/menu-hamburger-.svg": "/MyPortfolio/static/media/menu-hamburger-.00718a1306e1a62aee5a.svg",
+    "main.80ab4706.css.map": "/MyPortfolio/static/css/main.80ab4706.css.map",
+    "main.87dac4eb.js.map": "/MyPortfolio/static/js/main.87dac4eb.js.map",
     "787.28cb0dcd.chunk.js.map": "/MyPortfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bccde7f6.css",
-    "static/js/main.fe6515c0.js"
+    "static/css/main.80ab4706.css",
+    "static/js/main.87dac4eb.js"
   ]
 }
