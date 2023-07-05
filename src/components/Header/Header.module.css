@@ -14,5 +14,6 @@
 @media (max-width: 450px) {
     .header {
         justify-content: center;
+        height: 0;
     }
 }

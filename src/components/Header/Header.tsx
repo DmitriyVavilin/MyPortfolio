@@ -1,15 +1,13 @@
 import React from 'react';
 import s from './Header.module.css'
 import {Nav} from "./Navigation/Nav";
+import {BurgerNav} from "./BurgerNavigation/BurgerNav";
 
-type HeaderType = {
-
-}
-
-export const Header = (props: HeaderType) => {
+export const Header = () => {
     return (
         <div className={s.header}>
             <Nav/>
+            <BurgerNav/>
         </div>
     );
 };

@@ -20,4 +20,12 @@
 
 .nav a:active {
     scale: 1.1;
+    color: red
+}
+
+
+@media (max-width: 400px) {
+    .nav {
+        display: none;
+    }
 }

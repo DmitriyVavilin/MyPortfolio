@@ -1,0 +1,62 @@
+.burgerNavItems {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #1f1d1d;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    text-align: center;
+    transform: translate(0,-180px);
+    transition: transform 0.8s;
+
+}
+
+.burgerBtn {
+    width: 30px;
+    height: 30px;
+    background-color: #be3939;
+    position: absolute;
+    top: 24px;
+    right: 20px;
+}
+
+.burgerNav .Link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.burgerNav .Link:last-child {
+    padding-bottom: 0;
+}
+
+.show {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transform: translate(0,0);
+}
+
+.burgerNav .Link:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.burgerNav a:active {
+    scale: 1.1;
+    color: red
+}
+
+@media (min-width: 400px) {
+    .burgerNav {
+        display: none;
+    }
+}
+
+

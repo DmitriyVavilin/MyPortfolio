@@ -12,7 +12,7 @@ export const Nav = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-55}
+                offset={1}
             >Home</Link>
             <Link
                 activeClass={s.active}
@@ -21,7 +21,7 @@ export const Nav = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-55}
+                offset={1}
             >About</Link>
             <Link
                 activeClass={s.active}
@@ -30,7 +30,7 @@ export const Nav = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-55}
+                offset={1}
             >Skills</Link>
             <Link
                 activeClass={s.active}
@@ -39,7 +39,7 @@ export const Nav = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-55}
+                offset={1}
             >Project</Link>
             <Link
                 activeClass={s.active}
@@ -48,7 +48,7 @@ export const Nav = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-55}
+                offset={1}
             >Contacts</Link>
         </div>
     );
