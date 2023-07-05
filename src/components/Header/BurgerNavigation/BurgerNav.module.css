@@ -18,10 +18,12 @@
 .burgerBtn {
     width: 30px;
     height: 30px;
-    background-color: #be3939;
+    /*background-color: #be3939;*/
     position: absolute;
     top: 24px;
     right: 20px;
+    border: solid 1px white;
+    background-image: url("/src/assets/img/menu-hamburger-.svg");
 }
 
 .burgerNav .Link {

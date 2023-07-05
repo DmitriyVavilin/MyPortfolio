@@ -11,7 +11,7 @@
     opacity: 0.8;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
     .header {
         justify-content: center;
         height: 0;
